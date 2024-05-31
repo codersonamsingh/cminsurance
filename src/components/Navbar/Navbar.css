@@ -1,0 +1,68 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0 0 0 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+.nav-css{
+    background-color: #fff;
+}
+/* .nav-left .logo{
+    width: 130px;
+} */
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    padding: 2px 12px;
+    /* border-radius: 25px; */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+
+}
+.nav-middle .search-box input{
+    width: 200px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .user_icon{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.menu-item{
+    color: #fff;
+    margin-left: 40px;
+}
+
+.last-menu{
+    margin-right: 100px;
+}
+
+.create-button{
+    
+        background-color: #004080; /* AVANZA blue color */
+        color: white; /* Text color */
+        border: none; /* Remove default border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 10px 20px; /* Padding inside the button */
+        font-size: 16px; /* Font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+      
+}
